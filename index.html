@@ -7,16 +7,111 @@
 		integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-	<main class="mx-20">
-		<h1 class="text-4xl">SLAM24</h1>
-		<p class="text-xl">Hi my full name is Luis Alfredo Mart&iacute;nez S&aacute;nchez, i'm fullstack developer and love my job.</p>
-		<p>Coming soon my bio completly.</p>
-		<section>
+	<header class="bg-[#1b1f24] text-white font-semibold px-8 py-5 flex justify-between items-center">
+		<h2 class="text-2xl">@SLAM24</h2>
+	
+		<!-- Botón Hamburguesa -->
+		<button id="menu-btn" class="block md:hidden">
+			<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+			</svg>
+		</button>
+	
+		<!-- Menú de Navegación -->
+		<nav id="menu" class="hidden md:flex items-center space-x-6 text-xl">
+			<a href="#" class="hover:underline">About</a>
+			<a href="#" class="hover:underline">Experience</a>
+			<a href="#" class="hover:underline">Tools</a>
+			<a href="#" class="hover:underline">Projects</a>
+		</nav>
+	</header>
+	<main class="text-white">
+		<section class="bg-[#1b1f24] px-10 grid grid-cols-2 pb-20 pt-20">
+			<div>
+				<hr class="w-1/3 border-t-8 ml-0 my-4">
+				<h1 class="text-7xl font-bold">Nice to meet you, I’m Luis Martínez</h1>
+				<p class="text-2xl my-5">Systems Engineer | Web developer | Scalable Web & Mobile Solutions</p>
+				<hr class="text-gray-800">
+				<div class="flex space-x-4">
+					<div class="flex items-center mt-10 space-x-4">
+						<span class="text-7xl font-bold">9</span> <i class="fas fa-plus text-blue-700 text-5xl"></i>
+						<p class="text-2xl">years of <br> experiences</p>
+					</div>
+					<!--<div class="flex items-center mt-10 space-x-4">
+						<span class="text-7xl font-bold">5</span> <i class="fas fa-plus text-blue-700 text-5xl"></i>
+						<p class="text-2xl">remote <br> countries</p>
+					</div>-->
+				</div>
+
+			</div>
+			<div class="flex justify-center mt-10">
+				<img src="./img/1592516173795.jpg" alt="" class="w-80 h-80 rounded-full object-cover">
+			</div>
+		</section>
+		<section class="bg-[#22272f] px-10 grid grid-cols-2 py-20">
+			text
+		</section>
+
+		<section class="bg-[#1b1f24] px-10 py-20">
 			<h2>Projects CSS</h2>
 			<ul>
 				<li>Clone heyharvie.com <a class="text-blue-900" target="__blank" href="./harvie/index.html">ver</a></li>
 			</ul>
 		</section>
 	</main>
+	<footer class="bg-[#1b1f24] px-6 py-10 border-t-2 border-gray-400 text-white">
+		<div class="grid grid-cols-2 mt-20">
+			<div>
+				<div class="flex space-x-4 items-center">
+					<div class="flex justify-center">
+						<img src="./img/1592516173795.jpg" alt="" class="w-40 h-40 rounded-full object-cover">
+					</div>
+					<div>
+						<h2 class="text-white text-4xl font-bold">Luis Martínez</h2>
+						<p class="text-slate-600 text-2xl mt-3 font-bold">Fullstack developer at IngenieroSEO</p>
+					</div>
+				</div>
+				<div class="flex space-x-4 items-center mt-10">
+					<i class="fa-brands fa-github text-white text-4xl"></i>
+					<i class="fa-brands fa-linkedin text-white text-4xl"></i>
+				</div>
+			</div>
+			<div class="pl-10">
+				<div class="flex items-center space-x-4 pb-10">
+					<h2 class="text-5xl font-bold">Get in touch</h2> <i class="fa-solid fa-arrow-right text-blue-700 text-5xl pt-3"></i>
+				</div>
+				<div class="grid grid-cols-2">
+					<div>
+						<h3 class="text-slate-400">Email me:</h3>
+						<div class="flex items-center space-x-4">
+							<h2 class="text-l font-bold">luismartinez242011@gmail.com</h2> <i class="fa-solid fa-arrow-right text-xl pt-2"></i>
+						</div>
+						<hr class="border-t-2 border-gray-400">
+					</div>
+					<div class="pl-16">
+						<h3 class="text-slate-400">Call me:</h3>
+						<div class="flex items-center space-x-4">
+							<h2 class="text-l font-bold">(505) 8260 - 8148</h2> <i
+								class="fa-solid fa-arrow-right text-xl pt-2"></i>
+						</div>
+						<hr class="w-3/4 border-t-2 border-gray-400">
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="border-t-1 border-gray-400 mt-20">
+		<div class="grid grid-cols-2 text-xl">
+			<nav class="md:flex items-center space-x-6 mt-10">
+				<a href="#" class="hover:underline">About</a>
+				<a href="#" class="hover:underline">Experience</a>
+				<a href="#" class="hover:underline">Tools</a>
+				<a href="#" class="hover:underline">Projects</a>
+			</nav>
+			<div class="md:flex items-center space-x-6 mt-10 justify-end">
+				<p>Copyright © Developer slam24 | Designed by slam24</p>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
